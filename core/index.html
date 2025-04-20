@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>ACSESS - CSE Department</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="/core/css/styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -25,9 +27,6 @@
                 <li><a href="#events">Events</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
 
         <div class="hero">
@@ -82,7 +81,8 @@
             <div class="about-text">
                 <p><b>FOUNDED IN 2023, ACSESS IS THE OFFICIAL TECHNICAL CLUB OF THE COMPUTER SCIENCE DEPARTMENT.</b>
                     <br><br>
-                    The club actively organizes a variety of events, including technical workshops, hackathons, and skill
+                    The club actively organizes a variety of events, including technical workshops, hackathons, and
+                    skill
                     enhancement sessions, designed to equip members with hands-on experience and practical knowledge. By
                     bringing together passionate and curious minds, ACSESS provides a platform to explore cutting-edge
                     technologies, tackle real-world challenges, and develop impactful solutions. With a focus on coding,
@@ -102,46 +102,131 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="card-container">
             <h2>Events</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="/core/assets/a1.jpeg" class="card-img">
-                    <p class="card-title"> <u>Capgemini Training Program</u></p><br>
-                    <p class="card-info">We are delighted to announce the successful completion of the Capgemini
-                        Training Program on Data Analytics with Power BI, organized in collaboration with Capgemini and
-                        ICT.</p>
+            <div id="carouselExampleControls" class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="/core/assets/a1.jpeg" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Capgemini Training Program</h5>
+                                <p class="card-text">We are delighted to announce the successful completion of the Capgemini
+                                    Training Program on Data Analytics with Power BI, organized in collaboration with Capgemini and
+                                    ICT.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="/core/assets/b1.jpeg" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">HackZion V2 Results</h5>
+                                <p class="card-text">The 24-hour national-level hackathon, "HackZion V2," held on February 24-25,
+                                    2025, concluded with a valedictory ceremony celebrating the exceptional efforts of all
+                                    participants.
+                                    Your ideas and enthusiasm inspire us—keep innovating!</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="/core/assets/c1.jpeg" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">HackZion V2 – 24 Hours of Innovation in Action!</h5>
+                                <p class="card-text">The 24-hour national-level hackathon, "HackZion V2," has begun and
+                                    brought together innovators to tackle challenging problems across four key domains: AIML,
+                                    Cybersecurity, Web3/Blockchain, and IoT/Innovation.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="/core/assets/d1.jpeg" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">HackZion V2 Inauguration</h5>
+                                <p class="card-text">"HackZion V2" which is going to take place on 24th & 25th February 2025, hosted
+                                    by the ACSESS AMCEC Student Club, bringing together talented innovators to tackle real-world
+                                    challenges.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="/core/assets/e1.jpeg" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Alephium Builders Meetup</h5>
+                                <p class="card-text">The ACSESS AMCEC Student Club hosted the Alephium Builders Meetup on October
+                                    14, 2024, with 40 enthusiastic participants.
+                                    This hands-on workshop explored blockchain and decentralized applications, offering practical
+                                    skills and insights.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 6</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 7</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 8</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 9</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="/core/assets/b1.jpeg" class="card-img">
-                    <p class="card-title"><u>HackZion V2 Results</u></p><br>
-                    <p class="card-info">The 24-hour national-level hackathon, "HackZion V2," held on February 24-25,
-                        2025, concluded with a valedictory ceremony celebrating the exceptional efforts of all
-                        participants.
-                        Your ideas and enthusiasm inspire us—keep innovating!</p>
-                </div>
-                <div class="card">
-                    <img src="/core/assets/c1.jpeg" class="card-img">
-                    <p class="card-title"><u>HackZion V2 – 24 Hours of Innovation in Action!</u></p><br>
-                    <p class="card-info">The 24-hour national-level hackathon, "HackZion V2," has begun and
-                        brought together innovators to tackle challenging problems across four key domains: AIML,
-                        Cybersecurity, Web3/Blockchain, and IoT/Innovation.</p>
-                </div>
-                <div class="card">
-                    <img src="/core/assets/d1.jpeg" class="card-img">
-                    <p class="card-title"><u>HackZion V2 Inauguration</u></p><br>
-                    <p class="card-info">"HackZion V2" which is going to take place on 24th & 25th February 2025, hosted
-                        by the ACSESS AMCEC Student Club, bringing together talented innovators to tackle real-world
-                        challenges. </p>
-                </div>
-                <div class="card">
-                    <img src="/core/assets/e1.jpeg" class="card-img">
-                    <p class="card-title"><u>Alephium Builders Meetup</u></p><br>
-                    <p class="card-info">The ACSESS AMCEC Student Club hosted the Alephium Builders Meetup on October
-                        14, 2024, with 40 enthusiastic participants.
-                        This hands-on workshop explored blockchain and decentralized applications, offering practical
-                        skills and insights.</p>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -164,11 +249,11 @@
             </div>
         </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
     <script src="./js/admin.js"></script>
 
-
 </body>
-
 </html>
