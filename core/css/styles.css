@@ -298,7 +298,11 @@ body {
     color: var(--accent-blue);
     margin-bottom: 1rem;
 }
-
+.about-text{
+    background-color: var(--secondary-blue);
+    padding: 10px;
+    border-radius: 20px;
+}
 /* Animations */
 @keyframes slideUp {
     from {
