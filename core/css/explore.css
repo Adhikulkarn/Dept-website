@@ -144,9 +144,13 @@ body {
 .faculty-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 3rem;
 }
+.faculty-section .faculty-card:nth-child(2) .faculty-info {
+    padding: 2.5rem; /* Increased padding for HOD card */
+}
+
 
 .faculty-card {
     background: var(--secondary-blue);
