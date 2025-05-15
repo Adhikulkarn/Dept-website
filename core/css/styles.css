@@ -304,6 +304,30 @@ body {
     padding: 10px;
     border-radius: 20px;
 }
+
+.footer {
+    background-color: var(--secondary-blue);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    color: var(--white);
+}
+
+.footer .social-icons {
+    margin-bottom: 1rem;
+}
+
+.footer .social-icons a {
+    color: var(--white);
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: var(--accent-blue);
+}
+
 /* Animations */
 @keyframes slideUp {
     from {
