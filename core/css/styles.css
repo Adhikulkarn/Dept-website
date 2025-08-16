@@ -142,6 +142,24 @@ body {
     transform: translateY(-3px);
 }
 
+.join-us{
+    padding: 1rem 1rem;
+    margin: 20px;
+    background-color: var(--accent-blue);
+    color: var(--primary-blue);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+    opacity: 0;
+    animation: fadeIn 1s 0.6s forwards;
+}
+
+.join-us:hover{
+    transform: translateY(-3px)
+}
+
 /* Notifications Section */
 .notifications {
     padding: 5rem 5%;
