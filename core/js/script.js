@@ -103,3 +103,8 @@ document.addEventListener("DOMContentLoaded", function () {
     multipleCardCarousel.classList.add("slide");
   }
 });
+
+function EventCalender() {
+  alert("You will get this feature in the next update!");
+} // ALERT MESSAGE ON CLICKING ON EVENT CALANDER BUTTON
+// UPDATE THIS CODE ONCE THE EVENT CALANDER IS READY
