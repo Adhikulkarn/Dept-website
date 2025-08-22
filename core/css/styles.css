@@ -36,6 +36,10 @@ body {
 	z-index: 1000;
 }
 
+.menu-toggle {
+	display: none;
+}
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -379,6 +383,7 @@ body {
 		display: block;
 		color: var(--white);
 		font-size: 1.5rem;
+		cursor: pointer;
 	}
 
 	.hero-title {
@@ -388,9 +393,7 @@ body {
 	.about-content {
 		grid-template-columns: 1fr;
 	}
-}
 
-@media (max-width: 768px) {
 	.logo-img {
 		height: 30px;
 	}
@@ -398,9 +401,7 @@ body {
 	.logo span {
 		font-size: 1.4rem;
 	}
-}
 
-@media (max-width: 768px) {
 	.nav-links {
 		position: absolute;
 		top: 100%;
@@ -417,12 +418,6 @@ body {
 		display: flex;
 	}
 
-	.menu-toggle {
-		cursor: pointer;
-	}
-}
-
-@media (max-width: 768px) {
 	.about-content {
 		display: grid;
 		grid-template-columns: 1fr;
