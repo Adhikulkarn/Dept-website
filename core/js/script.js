@@ -108,3 +108,8 @@ function EventCalender() {
   alert("You will get this feature in the next update!");
 } // ALERT MESSAGE ON CLICKING ON EVENT CALANDER BUTTON
 // UPDATE THIS CODE ONCE THE EVENT CALANDER IS READY
+
+function Achievement(){
+  alert("You will will get this feature in the next update!");
+} // ALERT MESSAGE ON CLICKING ON ACHIEVEMENT BUTTON
+// UPDATE THIS CODE ONCE THE ACHIEVEMENT PAGE IS READY
