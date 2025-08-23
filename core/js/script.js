@@ -105,9 +105,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function EventCalender() {
-  alert("You will get this feature in the next update!");
-} // ALERT MESSAGE ON CLICKING ON EVENT CALANDER BUTTON
-// UPDATE THIS CODE ONCE THE EVENT CALANDER IS READY
+  window.location.href = "html/events.html";
+} 
 
 function Achievement(){
   alert("You will will get this feature in the next update!");
