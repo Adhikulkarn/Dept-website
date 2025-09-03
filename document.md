@@ -254,13 +254,13 @@ The following diagram illustrates the data flow for the alerts management featur
 │  ┌───────────────────────────────────────────────────────────────┐       │
 │  │                                                               │       │
 │  │  API Routes                                                   │       │
-│  │  ┌─────────────────────┐      ┌─────────────────────┐        │       │
-│  │  │                     │      │                     │        │       │
-│  │  │  /api/alerts        │      │  /api/alerts/[id]   │        │       │
-│  │  │  (POST, GET)        │      │  (GET, PUT, DELETE) │        │       │
-│  │  │                     │      │                     │        │       │
-│  │  └─────────┬───────────┘      └─────────┬───────────┘        │       │
-│  │            │                            │                    │       │
+│  │  ┌─────────────────────┐      ┌─────────────────────┐         │       │
+│  │  │                     │      │                     │         │       │
+│  │  │  /api/alerts        │      │  /api/alerts/[id]   │         │       │
+│  │  │  (POST, GET)        │      │  (GET, PUT, DELETE) │         │       │
+│  │  │                     │      │                     │         │       │
+│  │  └─────────┬───────────┘      └─────────┬───────────┘         │       │
+│  │            │                            │                     │       │
 │  └────────────┼────────────────────────────┼────────────────────┘       │
 │               │                            │                            │
 └───────────────┼────────────────────────────┼────────────────────────────┘
@@ -280,7 +280,7 @@ The following diagram illustrates the data flow for the alerts management featur
 │  │  │    id: "...",                                       │     │       │
 │  │  │    title: "Tech Symposium",                         │     │       │
 │  │  │    content: "Registration open...",                 │     │       │
-│  │  │    date: "2024-03-10T12:00:00.000Z",               │     │       │
+│  │  │    date: "2024-03-10T12:00:00.000Z",               │      │       │
 │  │  │    isNew: true,                                     │     │       │
 │  │  │    active: true                                     │     │       │
 │  │  │  }                                                  │     │       │
