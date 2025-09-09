@@ -112,3 +112,7 @@ function Achievement(){
   alert("You will will get this feature in the next update!");
 } // ALERT MESSAGE ON CLICKING ON ACHIEVEMENT BUTTON
 // UPDATE THIS CODE ONCE THE ACHIEVEMENT PAGE IS READY
+
+function joinus(){
+  alert("The Onboarding form will be out soon!");
+} // ALERT MESSAGE ON CLICKING ON JOIN US BUTTON
